@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy - Appsme</title>
+  <style>
+    :root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --accent:#2b6cb0;
+  --text:#0f1724;
+  --muted:#495057;
+  --radius:12px;
+  --max:800px;
+  --pad:20px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+body{
+  margin:0;
+  background:linear-gradient(180deg,var(--bg),#eef2f7);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  padding:40px 18px;
+}
+
+.container{
+  width:100%;
+  max-width:var(--max);
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:0 8px 30px rgba(21,32,43,0.08);
+  padding:calc(var(--pad) * 1.2);
+  margin:0 auto; /* Center horizontally */
+  box-sizing:border-box;
+}
+
+header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.logo {
+  width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#4c9bf5);
+  display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px;
+  box-shadow:0 6px 18px rgba(43,108,176,0.18);
+}
+
+h1{font-size:20px;margin:0}
+p.lead{margin:6px 0 20px;color:var(--muted);line-height:1.45}
+
+section{margin:16px 0;padding:14px;border-radius:10px;background:rgba(15,23,36,0.02)}
+h2{font-size:16px;margin:0 0 8px}
+p{margin:0 0 10px;color:var(--muted);line-height:1.5}
+
+ul{margin:6px 0 10px 20px;color:var(--muted)}
+
+footer{font-size:13px;color:var(--muted);margin-top:10px;text-align:center}
+
+a.contact{
+  display:inline-block;margin-top:8px;padding:8px 12px;border-radius:8px;background:transparent;border:1px solid rgba(43,108,176,0.12);color:var(--accent);text-decoration:none;font-weight:600;
+}
+
+@media (max-width:520px){
+  .container{padding:16px}
+  .logo{width:48px;height:48px;font-size:16px}
+}
+
+  </style>
+</head>
+<body>
+  <main class="container" role="main" aria-labelledby="title">
+    <header>
+      <div class="logo" aria-hidden="true">A</div>
+      <div>
+        <h1 id="title">Informativa sulla privacy — Appsme</h1>
+        <p class="lead">Entrata in vigore: <strong>17 novembre 2025</strong></p>
+      </div>
+    </header>
+
+    <section aria-labelledby="intro">
+      <h2 id="intro">Introduzione</h2>
+      <p>
+        Appsme (di seguito, "l'App") è progettata per un uso da parte di persone adulte e non è sviluppata per scopi di lucro.
+        La presente informativa descrive le pratiche relative alla raccolta, all'utilizzo e alla protezione dei dati personali.
+      </p>
+    </section>
+
+    <section aria-labelledby="no-data">
+      <h2 id="no-data">Nessuna raccolta di dati</h2>
+      <p>
+        Attenzione: l'App <strong>non raccoglie</strong> dati personali né dati di utilizzo a fini statistici o di studio.
+        Non vengono inviati al server né memorizzati sul dispositivo dati identificativi dell'utente (es. nome, email, identificatori univoci).
+      </p>
+      <p>
+        In particolare:
+      </p>
+      <ul>
+        <li>Non è presente monitoraggio analytics interno né di terze parti.</li>
+        <li>Non vengono raccolti dati relativi alla posizione, contatti, foto, o altri dati sensibili.</li>
+        <li>Non vengono inviati log o crash report a servizi esterni.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="cookies">
+      <h2 id="cookies">Cookie e tecnologie simili</h2>
+      <p>
+        L'App non utilizza cookie o tecnologie di tracciamento per raccogliere informazioni personali.  
+        Eventuali funzionalità web esterne integrate (es. apertura di pagine esterne) potrebbero però fare uso di cookie dal lato del sito esterno.
+      </p>
+    </section>
+
+    <section aria-labelledby="third-parties">
+      <h2 id="third-parties">Servizi di terze parti</h2>
+      <p>
+        Al momento l'App non integra servizi di terze parti che raccolgono dati personali dagli utenti.
+        Se in futuro verranno integrati servizi esterni (es. analytics, advertising, autenticazione esterna), questa informativa verrà aggiornata.
+      </p>
+    </section>
+
+    <section aria-labelledby="minors">
+      <h2 id="minors">Utenti minorenni</h2>
+      <p>
+        L'App è pensata esclusivamente per un pubblico adulto. Se vieni a conoscenza dell'uso dell'App da parte di minori, ti preghiamo di contattarci.
+      </p>
+    </section>
+
+    <section aria-labelledby="retention">
+      <h2 id="retention">Conservazione dei dati</h2>
+      <p>
+        Poiché l'App non raccoglie dati personali, non si applicano politiche di conservazione di dati personali.  
+        Se in futuro verranno raccolti dati, le modalità e i tempi di conservazione saranno comunicati in questa pagina.
+      </p>
+    </section>
+
+    <section aria-labelledby="rights">
+      <h2 id="rights">Diritti degli utenti</h2>
+      <p>
+        Anche se non raccogliamo dati personali, gli utenti possono contattarci per qualsiasi richiesta o chiarimento.  
+        Qualora in futuro venissero raccolti dati, gli utenti avranno i diritti previsti dalla normativa applicabile (accesso, rettifica, cancellazione, limitazione, portabilità e opposizione).
+      </p>
+    </section>
+
+
+    <section aria-labelledby="changes">
+      <h2 id="changes">Modifiche all'informativa</h2>
+      <p>
+        Ci riserviamo il diritto di aggiornare questa informativa. In caso di cambiamenti sostanziali (ad es. se inizieremo a raccogliere dati), pubblicheremo la nuova versione con la data di aggiornamento.
+      </p>
+    </section>
+
+    <footer>
+      <div>Questa informativa non costituisce consulenza legale. Se desideri una privacy policy con valore legale, consulta un professionista del diritto.</div>
+      <div style="margin-top:8px">© Appsme — Tutti i diritti riservati</div>
+    </footer>
+  </main>
+</body>
+</html>
